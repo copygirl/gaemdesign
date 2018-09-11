@@ -16,6 +16,7 @@
 
 | Key | Description |
 | --- | ----------- |
+| `QE` | Leaning. Allows you to look around corners, just sticking out your head. (Only in **Passive** stance?) |
 | `Ctrl` + `Shift` | Hold for some time to start crawling. Automatically exits **Combat** stance. Hold `Space` to stand up again. |
 | `Shift` + `WASD` x2 | Short dash, with minor short slowdown afterwards. |
 | `Shift` + `WASD` x2 + `Space` | Long dash, with medium, slightly longer slowdown afterwards? |
@@ -41,8 +42,8 @@ different type of action.
 | **Throw** (`T`)    | Drop. Hold to **throw**. Distance depends on weight. |
 
 Pressing **Interact** followed by clicking both mouse buttons, the objects in
-your hands will be swapped out with each other. Holding the mouse buttons
-instead will attempt to use both hands together. (Such as combining objects,
+your hands will be swapped out with each other. Holding the mouse buttons will
+instead attempt to use both objects together. (Such as combining them, or
 taking an item out of a pouch with an empty hand, ...)
 
 For most items, an ongoing action, especially ones that are charged up and are
@@ -85,6 +86,21 @@ there's no space for the item, the highlight will be red.
 | **Temporary**   | After placing a temporary attachment, either side of the attachment may simply be taken away as their individual pieces. The recipe will always be unfinished after one of these steps. |
 | **Binding**     | Applying a binding attachment connects the binding part and one or more other parts, either permanently or in such a way that the binding has to be removed first. A binding recipe may result in a finished, usable tool or item. |
 
+## Heating
+
+Objects will slowly change their own temperature depending on the surrounding
+heat. This can affect items such as food, causing them to rot faster at warmer
+temperatures, get cooked when hot, or get burned to ash when extremely hot.
+
+Objects made out of metal become malleable when applying enoug heat, allowing
+to shape them with a hammer. (See **Smithing**.)
+
+### Melting
+
+Objects made out of metal may melt at significantly hot temperatures and behave
+like a viscuous fluid before they cool down again. Molten metals may be poured
+into a cast to form specific shapes. (See **Casting**.)
+
 ## Voxel crafting
 
 As you're starting an individual micro-block "project", and possibly upon
@@ -94,6 +110,11 @@ a highlight / wireframe of the target shape.
 Some of the crafting systems may behave like little puzzles, requiring you to
 experiment with and learn a set of steps, possibly refining it as you gain
 experience as well as access to new tools and automation.
+
+Certain recipes might also be dynamic in some ways in that they allow different
+resulting sizes of some objects. While being identical in basic functionality,
+they may have different stats such as weight, durability and effectiveness at
+specific tasks.
 
 ### Knapping
 
@@ -114,7 +135,7 @@ chisel, hard rock or similar. rock, breaking off smaller pieces.
 ```
  ##   ###  ##  #
 #OO#  ###  ##  #
-#OO#  ###  ##   
+#OO#  ###  ##
 #OO#  ###
  ##
 
@@ -125,15 +146,19 @@ chisel, hard rock or similar. rock, breaking off smaller pieces.
 ```
 
 When using lower quality tools such as rocks, multiple attempts may be required
-to "break through" and remove the desired shape.
+to "break through" and remove the desired shape. Breaking off larger pieces of
+stone may result in a small rock to be created.
 
-Depending on the tool head being made, certain number of voxel layers 
+Depending on the recipe, an item has to be made from varying numbers of layers.
+For example, a stone knife blade would only be 1 layer thick while an axe head
+may be 3 layers. It may be required to flip the working piece to shape the
+opposite side.
 
 ### Clay shaping
 
-Unlike knapping, clay shaping is freely three-dimensional, and materials won't
-be lost if you make a mistake. Also has much different crafting mechanics.
-There's different "techniques" to manipulating clay:
+Clay shaping is freely three-dimensional, materials can be added and removed;
+they won't be lost if you make a mistake. Also has much different crafting
+mechanics. There's different "techniques" to manipulating clay:
 
 | Category   | Technique | Description |
 | ---------- | --------- | ----------- |
@@ -157,15 +182,17 @@ Using temperature resistant materials such as fire clay to create a cast and
 then firing it creates a cast that can be used multiple times to pour molten
 metal for it to cool and harden.
 
-
+Tools that require sharpening to be effective will be completely dull at first
+so they have to be worked quite a long time to be decently useful. This is
+unlike knapping, which will at least create semi-shapened tools.
 
 ### Smithing
 
-
-
-## Heating
-
-## Melting
+When a metal is heated to a certain temperate it becomes soft and malleable,
+such that a hammer of sufficient quality can shape the metal by hitting it
+multiple times. The hot metal needs to be picked up and carried using a pair of
+tongs, and might need to be heated back up to temperature multiple times in
+order to finish the recipe.
 
 
 # Progression
@@ -194,7 +221,9 @@ metal for it to cool and harden.
 
 # Combat
 
-
+- When charging up to fire an arrow with a bow, swiping the mouse as you shoot
+  will give it some "spin", causing it to arc towards that direction. Might not
+  be realistic but definitely pretty cool.
 
 
 # World generation
