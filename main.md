@@ -20,7 +20,7 @@
 | `Ctrl` + `Shift` | Hold for some time to start crawling. Automatically exits **Combat** stance. Hold `Space` to stand up again. |
 | `Shift` + `WASD` x2 | Short dash, with minor short slowdown afterwards. |
 | `Shift` + `WASD` x2 + `Space` | Long dash, with medium, slightly longer slowdown afterwards? |
-| `Ctrl` + `WASD` x2 | Roll? |
+| `WASD` x2 + `Ctrl` | Roll? |
 
 Depending on your equipment and held objects, certain movement options might
 not be available or you will be slowed down, for example when carrying a heavy
