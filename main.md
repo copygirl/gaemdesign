@@ -2,6 +2,8 @@
 
 ## Controls
 
+### Basic movement
+
 | Key      | Description |
 | -------- | ----------- |
 | `Mouse`  | Look around. Depending on your current action and held object, character turn speed might be limited. |
@@ -26,7 +28,7 @@ Depending on your equipment and held objects, certain movement options might
 not be available or you will be slowed down, for example when carrying a heavy
 object.
 
-### Held objects
+### Interaction / held objects
 
 Character is two-handed, each mouse button controls one hand. It is possible to
 carry large and/or heavy objects with both hands. Different modifier keys
@@ -116,7 +118,7 @@ resulting sizes of some objects. While being identical in basic functionality,
 they may have different stats such as weight, durability and effectiveness at
 specific tasks.
 
-### Knapping
+### Knapping / chiseling
 
 Stone materials can be **shaped** into a different form using a hammer, pick,
 chisel, hard rock or similar. rock, breaking off smaller pieces.
@@ -153,6 +155,9 @@ Depending on the recipe, an item has to be made from varying numbers of layers.
 For example, a stone knife blade would only be 1 layer thick while an axe head
 may be 3 layers. It may be required to flip the working piece to shape the
 opposite side.
+
+This technique may also be used to create items and blocks that have varying
+shapes for purely decorative purposes.
 
 ### Clay shaping
 
@@ -197,15 +202,10 @@ tongs, and might need to be heated back up to temperature multiple times in
 order to finish the recipe.
 
 
-# Progression
+# Building
 
-## Tiers
 
-- Stone
-- Copper
-- Bronze
-- Iron
-- Steel
+
 
 # Survival
 
@@ -227,15 +227,22 @@ were to start running after having lost some blood from a wound you took from
 falling some distance, the additional lack of oxygen could put you over the
 egde and you might pass out.
 
-Time heals all wounds, though carying for your injuries, through applying
+Time heals all wounds, though caring for your injuries, through applying
 healing balms or bandages will greatly shorten the time for this to happen.
 Healthy, high quality food, will also slightly speed things up the healing
 process as well, regardless of whether you ate before or after taking damage.
 
 
-# Building
+# Progression
 
+## Tiers
 
+- Stone
+- Copper
+- Bronze
+- Iron
+- Brass
+- Steel
 
 
 # Combat
