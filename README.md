@@ -51,7 +51,7 @@ shared between both games.
 
 # [Gameplay](gameplay.md)
 
-# [Storage](storage.md)
+# [Storage & Inventory](storage.md)
 
 # [Crafting](crafting.md)
 
