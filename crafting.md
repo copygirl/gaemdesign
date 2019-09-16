@@ -17,9 +17,7 @@
 
 ## Attaching
 
-By holding an item over another item which has a recipe defined to combine
-both, a highlight will be shown where the held item may be "attached". If
-there's no space for the item, the highlight will be red.
+By holding an item over another item which has a recipe defined to combine both, a highlight will be shown where the held item may be "attached". If there's no space for the item, the highlight will be red.
 
 | Attachment Type | Description |
 | --------------- | ----------- |
@@ -28,38 +26,25 @@ there's no space for the item, the highlight will be red.
 
 ## Heating
 
-Objects will slowly change their own temperature depending on the surrounding
-heat. This can affect items such as food, causing them to rot faster at warmer
-temperatures, get cooked when hot, or get burned to ash when extremely hot.
+Objects will slowly change their own temperature depending on the surrounding heat. This can affect items such as food, causing them to rot faster at warmer temperatures, get cooked when hot, or get burned to ash when extremely hot.
 
-Objects made out of metal become malleable when applying enoug heat, allowing
-to shape them with a hammer. (See **Smithing**.)
+Objects made out of metal become malleable when applying enoug heat, allowing to shape them with a hammer. (See **Smithing**.)
 
 ### Melting
 
-Objects made out of metal may melt at significantly hot temperatures and behave
-like a viscuous fluid before they cool down again. Molten metals may be poured
-into a cast to form specific shapes. (See **Casting**.)
+Objects made out of metal may melt at significantly hot temperatures and behave like a viscuous fluid before they cool down again. Molten metals may be poured into a cast to form specific shapes. (See **Casting**.)
 
 ## Voxel Crafting
 
-As you're starting an individual micro-block "project", and possibly upon
-request, show a list of available recipes. Upon selecting one of these, show
-a highlight / wireframe of the target shape.
+As you're starting an individual micro-block "project", and possibly upon request, show a list of available recipes. Upon selecting one of these, show a highlight / wireframe of the target shape.
 
-Some of the crafting systems may behave like little puzzles, requiring you to
-experiment with and learn a set of steps, possibly refining it as you gain
-experience as well as access to new tools and automation.
+Some of the crafting systems may behave like little puzzles, requiring you to experiment with and learn a set of steps, possibly refining it as you gain experience as well as access to new tools and automation.
 
-Certain recipes might also be dynamic in some ways in that they allow different
-resulting sizes of some objects. While being identical in basic functionality,
-they may have different stats such as weight, durability and effectiveness at
-specific tasks.
+Certain recipes might also be dynamic in some ways in that they allow different resulting sizes of some objects. While being identical in basic functionality, they may have different stats such as weight, durability and effectiveness at specific tasks.
 
 ### Knapping / chiseling
 
-Stone materials can be **shaped** into a different form using a hammer, pick,
-chisel, hard rock or similar. rock, breaking off smaller pieces.
+Stone materials can be **shaped** into a different form using a hammer, pick, chisel, hard rock or similar. rock, breaking off smaller pieces.
 
 | Tool        | Size  | Shape |
 | ----------- |:-----:|:-----:|
@@ -85,23 +70,15 @@ chisel, hard rock or similar. rock, breaking off smaller pieces.
             v
 ```
 
-When using lower quality tools such as rocks, multiple attempts may be required
-to "break through" and remove the desired shape. Breaking off larger pieces of
-stone may result in a small rock to be created.
+When using lower quality tools such as rocks, multiple attempts may be required to "break through" and remove the desired shape. Breaking off larger pieces of stone may result in a small rock to be created.
 
-Depending on the recipe, an item has to be made from varying numbers of layers.
-For example, a stone knife blade would only be 1 layer thick while an axe head
-may be 3 layers. It may be required to flip the working piece to shape the
-opposite side.
+Depending on the recipe, an item has to be made from varying numbers of layers. For example, a stone knife blade would only be 1 layer thick while an axe head may be 3 layers. It may be required to flip the working piece to shape the opposite side.
 
-This technique may also be used to create items and blocks that have varying
-shapes for purely decorative purposes.
+This technique may also be used to create items and blocks that have varying shapes for purely decorative purposes.
 
 ### Clay Shaping
 
-Clay shaping is freely three-dimensional, materials can be added and removed;
-they won't be lost if you make a mistake. Also has much different crafting
-mechanics from knapping.
+Clay shaping is freely three-dimensional, materials can be added and removed; they won't be lost if you make a mistake. Also has much different crafting mechanics from knapping.
 
 Here are some different "techniques" to manipulate clay:
 
@@ -114,27 +91,16 @@ Here are some different "techniques" to manipulate clay:
 |            | Squach    | Gradually squashes all connected voxels together into a generic ball, destroying the shape and eventually picking up the raw material. |
 | **Mold**   | Press     | Continuously presses against a flat surface, pushing voxels away from the pressure point up to 2 voxels outwards. |
 
-Using a turntable the process of forming "round" clay objects such as bowls
-and pots becomes much easier and faster. It does this by rotating and mirroring
-all actions 8 times.
+Using a turntable the process of forming "round" clay objects such as bowls and pots becomes much easier and faster. It does this by rotating and mirroring all actions 8 times.
 
-Individual voxels of clay must be supported sufficiently, otherwise they will
-slide down after a short amount of time.
+Individual voxels of clay must be supported sufficiently, otherwise they will slide down after a short amount of time.
 
 ### Casting
 
-Using temperature resistant materials such as fire clay to create a cast and
-then firing it creates a cast that can be used multiple times to pour molten
-metal for it to cool and harden.
+Using temperature resistant materials such as fire clay to create a cast and then firing it creates a cast that can be used multiple times to pour molten metal for it to cool and harden.
 
-Tools that require sharpening to be effective will be completely dull at first
-so they have to be worked quite a long time to be decently useful. This is
-unlike knapping, which will at least create semi-shapened tools.
+Tools that require sharpening to be effective will be completely dull at first so they have to be worked quite a long time to be decently useful. This is unlike knapping, which will at least create semi-shapened tools.
 
 ### Smithing
 
-When a metal is heated to a certain temperate it becomes soft and malleable,
-such that a hammer of sufficient quality can shape the metal by hitting it
-multiple times. The hot metal needs to be picked up and carried using a pair of
-tongs, and might need to be heated back up to temperature multiple times in
-order to finish the recipe.
+When a metal is heated to a certain temperate it becomes soft and malleable, such that a hammer of sufficient quality can shape the metal by hitting it multiple times. The hot metal needs to be picked up and carried using a pair of tongs, and might need to be heated back up to temperature multiple times in order to finish the recipe.
