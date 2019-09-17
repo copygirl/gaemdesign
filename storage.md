@@ -1,6 +1,10 @@
 # Storage & Inventory
 
-One incredibly important aspect of this design is the way objects are stored in-world, instead of simply in some abstract user interface that pops up upon interacting with a container.
+One incredibly important aspect of this design is the way objects are stored in-world, instead of simply in some abstract user interface that pops up upon interacting with a container. Similarily, there is no "magic" player inventory.
+
+This hopefully causes meaningful emergent gameplay, requiring players to build paths, roads, structures, tackle engineering problems, and in general make decisions about how to handle and transport materials they gather from the world.
+
+## Storage Space
 
 First of all, any item takes up a certain amount of space in a so called "storage space". Storage space, similar to block space and micro-block space is made up of voxels. Items may take up a certain number of such voxels in any shape.
 
@@ -57,6 +61,6 @@ Regardless of whether a container is placed in the world, carried or equipped by
 
 ## Vehicles
 
-Multiple containers may be placed on a vehicle such as a cart and then either pulled by a player or trained animal.
+Multiple containers may be placed on a vehicle such as a cart and then either pulled by a player or trained animal. Rails would also be available, allowing pushing carts by hand or pulling using a mechanically powered rope system. Later on when the resources and technology is available, building a fully fletched rail system along with steam powered trains would be possible.
 
 ## Liquid Storage
